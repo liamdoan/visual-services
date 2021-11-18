@@ -4,6 +4,7 @@ import './Cards.css'
 import projectFashion from '../assets/project-fashion.jpg'
 import projectStreet from '../assets/project-street.jpg'
 import projectWedding from '../assets/project-wedding.jpg'
+import projectSamba from '../assets/project-samba.jpg'
 
 function Cards() {
     return (
@@ -31,9 +32,9 @@ function Cards() {
                             label="Wedding" 
                             path="/services"/>
                         <CardItem 
-                            src={projectStreet}
-                            text="Street life by nights"
-                            label="Street"
+                            src={projectSamba}
+                            text="Helsinki Samba Carnival 2019"
+                            label="Event"
                             path="/services"/>                   
                         <CardItem 
                             src={projectStreet}

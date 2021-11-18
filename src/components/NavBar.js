@@ -34,7 +34,7 @@ function NavBar() {
         <div>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/visual-services-web" className="navbar-logo" 
+                    <Link to="/visual-services" className="navbar-logo" 
                             onClick={closeMobileMenu}>
                             <img className="logo" src={Logo} />
                         {/* ABC Inc. <i className="fab fa-connectdevelop"></i> */}
@@ -48,7 +48,7 @@ function NavBar() {
 
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to="/visual-services-web" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="/visual-services" className="nav-links" onClick={closeMobileMenu}>
                                 Home
                             </Link>
                         </li>

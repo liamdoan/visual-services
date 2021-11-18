@@ -3,9 +3,18 @@ import { Link } from 'react-router-dom'
 import Button from './Button'
 import './Footer.css'
 import Logo from "../assets/logo-full.png"
+import { useState } from 'react'
 
 
 function Footer() {
+    
+    const [successNotice, setSuccessNotice] = useState()
+
+    const onSubmit = (e) => {
+        setSuccessNotice("Thank you for your subscription");
+        e.target.reset();
+        e.preventDefault()
+    }
     return (
         <div className="footer-container">
             <section className="footer-subscription">
@@ -15,16 +24,19 @@ function Footer() {
                 <p className="footer-subscription-text">
                     Unsubscribe anytime
                 </p>
-
+                <p className="notice">
+                    {successNotice}
+                </p>
                 <div className="input-areas">
-                    <form>
+                    <form onSubmit={onSubmit}>
                         <input type="email"
                                 name="email"
                                 placeholder="Email"
+                                required
                                 className="footer-input" />
-                        <Button buttonStyle="btn--outline">
+                        <button type="sumbit">
                             Subscribe
-                        </Button>
+                        </button>
                     </form>
                 </div>
             </section>
@@ -68,7 +80,7 @@ function Footer() {
             <section className="social-media">
                 <div className="social-media-wrap">
                     <div className="footer-logo">
-                        <Link to="/visual-services-web" target="_blank" className="social-logo">
+                        <Link to="/visual-services" className="social-logo">
                             <img className="logo" src={Logo} alt="" /> <span>ABC Photography</span> 
                         </Link>
                     </div>
