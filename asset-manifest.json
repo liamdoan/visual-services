@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/visual-services/static/css/main.d6d5b254.chunk.css",
+    "main.js": "/visual-services/static/js/main.4bd46b2f.chunk.js",
+    "main.js.map": "/visual-services/static/js/main.4bd46b2f.chunk.js.map",
+    "runtime-main.js": "/visual-services/static/js/runtime-main.3ca1b1c6.js",
+    "runtime-main.js.map": "/visual-services/static/js/runtime-main.3ca1b1c6.js.map",
+    "static/js/2.306b0493.chunk.js": "/visual-services/static/js/2.306b0493.chunk.js",
+    "static/js/2.306b0493.chunk.js.map": "/visual-services/static/js/2.306b0493.chunk.js.map",
+    "index.html": "/visual-services/index.html",
+    "static/css/main.d6d5b254.chunk.css.map": "/visual-services/static/css/main.d6d5b254.chunk.css.map",
+    "static/js/2.306b0493.chunk.js.LICENSE.txt": "/visual-services/static/js/2.306b0493.chunk.js.LICENSE.txt",
+    "static/media/logo-full.805bc402.png": "/visual-services/static/media/logo-full.805bc402.png",
+    "static/media/project-fashion.15e6a6e4.jpg": "/visual-services/static/media/project-fashion.15e6a6e4.jpg",
+    "static/media/project-street.0487a65d.jpg": "/visual-services/static/media/project-street.0487a65d.jpg",
+    "static/media/project-wedding.60fdb20c.jpg": "/visual-services/static/media/project-wedding.60fdb20c.jpg",
+    "static/media/App.css": "/visual-services/static/media/project4.afe47bed.jpg",
+    "static/media/vid1.8dda35d9.mp4": "/visual-services/static/media/vid1.8dda35d9.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ca1b1c6.js",
+    "static/js/2.306b0493.chunk.js",
+    "static/css/main.d6d5b254.chunk.css",
+    "static/js/main.4bd46b2f.chunk.js"
+  ]
+}
