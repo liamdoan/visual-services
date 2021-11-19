@@ -45,8 +45,8 @@ function Footer() {
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>About</h2>
+                        <Link to='/'>Our people</Link>
                         <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Careers</Link>
                         <Link to='/'>Clients</Link>
                         <Link to='/'>Terms of Service</Link>
                     </div>
@@ -60,7 +60,7 @@ function Footer() {
 
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>Video</h2>
+                        <h2>Works</h2>
                         <Link to='/'>Collaboration</Link>
                         <Link to='/'>Agency</Link>
                         <Link to='/'>Commercial</Link>
@@ -76,13 +76,16 @@ function Footer() {
                     </div>
                 </div>
             </div>
-
+ 
             <section className="social-media">
                 <div className="social-media-wrap">
                     <div className="footer-logo">
-                        <Link to="/visual-services" className="social-logo">
+                        <Link to="/visual-services" className="brand-logo">
                             <img className="logo" src={Logo} alt="" /> <span>ABC Photography</span> 
                         </Link>
+                        <p className="adress">Address: Abcdekatu 1, 01234 Kaupunki, Maa</p>
+                        <p className="phone">Tel: (+012) 123 456 789</p>
+                        <p className="email">Email: contact@abcphotography.com</p>
                     </div>
                     
                     <small className="website-rights">

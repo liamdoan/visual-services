@@ -5,6 +5,7 @@ import projectFashion from '../assets/project-fashion.jpg'
 import projectStreet from '../assets/project-street.jpg'
 import projectWedding from '../assets/project-wedding.jpg'
 import projectSamba from '../assets/project-samba.jpg'
+import projectPortrait from '../assets/project-portrait.jpg'
 
 function Cards() {
     return (
@@ -37,12 +38,12 @@ function Cards() {
                             label="Event"
                             path="/services"/>                   
                         <CardItem 
-                            src={projectStreet}
-                            text="Street life by nights"
-                            label="Street"
+                            src={projectPortrait}
+                            text="Street Portrait"
+                            label="Portrait"
                             path="/services"/>                   
                     </ul>
-                </div>
+                </div> 
             </div>
         </div>
     )
